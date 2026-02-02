@@ -48,7 +48,6 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_arvore","path":"objects/obj_arvore/obj_arvore.yy",},},
     {"id":{"name":"Spr_passaro03","path":"sprites/Spr_passaro03/Spr_passaro03.yy",},},
-    {"id":{"name":"snd_fundo","path":"sounds/snd_fundo/snd_fundo.yy",},},
     {"id":{"name":"Spr_bg_arvore","path":"sprites/Spr_bg_arvore/Spr_bg_arvore.yy",},},
     {"id":{"name":"Spr_bg","path":"sprites/Spr_bg/Spr_bg.yy",},},
     {"id":{"name":"Spr_bg_lua","path":"sprites/Spr_bg_lua/Spr_bg_lua.yy",},},
