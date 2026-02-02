@@ -10,7 +10,6 @@ var _pontos_necessario = global.lista_pontos[global.level - 1];
 		if (global.pontos >= _pontos_necessario){
 			global.level++;
 			
-			
 			//mudando a velocidade do background;
 		layer_hspeed("bg_arvores", -global.level);
 		layer_hspeed("bg_reflexo", -global.level);
