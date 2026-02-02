@@ -7,6 +7,22 @@
 	global.perdeu = false;
 #endregion
 
+//variavel dos pontos
+
+global.pontos = 0;
+
+
+//Level
+global.level = 1;
+
+
+//lista de pontos para level
+global.lista_pontos = [100, 250, 500, 800, 1200, 1800, 2500, 3500, 5000];
+
+//coletaveis
+
+global.pontos_coletaveis = 0;
+
 #region function
 
 //criando funçao para perder
@@ -20,8 +36,9 @@ function perde_jogo(){
 	layer_hspeed("bg_arvores",0);
 	layer_hspeed("bg_reflexo",0);
 	layer_hspeed("bg_reflexo_arvore",0);
-
+	
 	alarm[0] = game_get_speed(gamespeed_fps)* 2;
+
 }
 
 #endregion

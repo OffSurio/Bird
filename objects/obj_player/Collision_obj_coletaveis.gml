@@ -1,8 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+global.pontos_coletaveis ++;
 
-image_xscale = -1;
+
+
 
 
 
