@@ -1,0 +1,1 @@
+layer_sequence_create("transicao_2",0,0,seq_transicao_2);

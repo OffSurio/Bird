@@ -23,6 +23,13 @@ global.lista_pontos = [100, 250, 500, 800, 1200, 1800, 2500, 3500, 5000];
 
 global.pontos_coletaveis = 0;
 
+//global como destino da transicao
+
+global.destino = rm_jogo;
+
+//variavel para transicao foi criada
+global.transicao = false;
+
 #region function
 
 //criando funçao para perder
@@ -38,7 +45,22 @@ function perde_jogo(){
 	layer_hspeed("bg_reflexo_arvore",0);
 	
 	alarm[0] = game_get_speed(gamespeed_fps)* 2;
+	
+	//criando transicao
+	layer_sequence_create("transicao_2",0,0,seq_transicao_1);
+	global.destino = rm_inicio;
 
+}
+
+function muda_room(){
+	global.transicao = true;
+	//indo para a room do jogo
+	room_goto(global.destino);
+	
+}
+
+function finaliza(){
+	global.transicao = false;	
 }
 
 #endregion
