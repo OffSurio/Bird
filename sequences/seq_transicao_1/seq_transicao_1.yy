@@ -28,8 +28,8 @@
     ],
   },
   "parent": {
-    "name": "Sequences",
-    "path": "folders/Sequences.yy",
+    "name": "Bird",
+    "path": "Bird.yyp",
   },
   "playback": 0,
   "playbackSpeed": 60.0,

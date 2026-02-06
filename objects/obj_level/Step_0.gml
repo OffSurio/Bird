@@ -18,16 +18,6 @@ var _pontos_necessario = global.lista_pontos[global.level - 1];
 	}
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+	if (global.pontos >= global.pontos_record){
+		global.pontos_record = global.pontos;
+	}

@@ -29,19 +29,3 @@ draw_text(_canto_da_tela - 50, 30, string(global.pontos_coletaveis))
 //resetando a fonte
 draw_set_font(-1);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

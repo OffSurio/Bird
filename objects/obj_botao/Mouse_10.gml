@@ -13,6 +13,3 @@ escala_texto_y = 1.3;
 
 
 
-
-
-

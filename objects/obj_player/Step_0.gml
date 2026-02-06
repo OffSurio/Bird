@@ -3,7 +3,6 @@
 
 if (global.perdeu == true){
 	hspeed = -2;
-	
 	image_angle += 2;
 }else{
 //Morri pra fora

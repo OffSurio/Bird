@@ -2,6 +2,7 @@
 // You can write your code in this editor
 
 
+global.perdeu = false;
 
 image_xscale = escala_x /1.3;
 image_yscale = escala_y /1.3;
@@ -15,17 +16,4 @@ if (global.transicao == false){
 
 	global.transicao = true;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 

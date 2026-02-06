@@ -37,14 +37,14 @@ function perde_jogo(){
 	if (global.perdeu) exit;
 	
 	global.perdeu = true;
-
+	
 	vspeed = -4;
 
 	layer_hspeed("bg_arvores",0);
 	layer_hspeed("bg_reflexo",0);
 	layer_hspeed("bg_reflexo_arvore",0);
 	
-	alarm[0] = game_get_speed(gamespeed_fps)* 2;
+	alarm[0] = game_get_speed(gamespeed_fps)* 1;
 	
 	//criando transicao
 	layer_sequence_create("transicao_2",0,0,seq_transicao_1);
@@ -62,5 +62,14 @@ function muda_room(){
 function finaliza(){
 	global.transicao = false;	
 }
+
+//variavel de itens bloqueaveis
+//avisando se o item esta bloqueado ou nao
+global.itens_bloqueados = [false, true, true];
+
+//sprite do player
+global.sprite_player = Spr_passaro01;
+
+global.pontos_record = 0;
 
 #endregion

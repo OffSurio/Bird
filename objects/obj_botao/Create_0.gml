@@ -9,19 +9,3 @@ escala_texto_x = 1;
 escala_texto_y = 1;
 
 
-global.perdeu = false;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

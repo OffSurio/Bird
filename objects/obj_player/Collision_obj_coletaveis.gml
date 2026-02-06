@@ -4,21 +4,3 @@
 global.pontos_coletaveis ++;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
